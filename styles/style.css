@@ -1,0 +1,53 @@
+.header {
+  padding: 40px;
+  background: linear-gradient(to top right, rgb(69, 11, 124,0.8), rgb(86, 60, 201,0.7), rgb(73, 233, 251,0.6)),url("../public/header-bg-2.jpg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 550px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-greeting {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.header-content{
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-left: 80px;
+}
+
+.header-name{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.header-desciption{
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.lets-talk-button button{
+  padding: 15px 30px;
+  background: #fff;
+  border-radius: 50px;
+  color: #5238b1 !important;
+  outline: none;
+  border: 0;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+}
+
+.header-image img{
+  max-width: 500px;
+  transform: rotate(-32deg);
+}
