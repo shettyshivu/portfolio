@@ -237,7 +237,7 @@
   margin-top: 10px;
 }
 
-.skills-content .skills-title{
+.skills-content .skills-title {
   margin-bottom: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -276,14 +276,14 @@
   background-color: #e43c5c;
   transition: 0.9s;
   border-radius: 10px;
-  transform-origin: leftn;
+  transform-origin: left;
   transform: scaleX(0);
-  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 
 /* -----------------------Responsive---------------------------- */
-@keyframes animate{
-  100%{
+@keyframes animate {
+  100% {
     transform: scaleX(1);
   }
 }
