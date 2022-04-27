@@ -60,7 +60,7 @@ const Projects = () => {
                 backgroundImage: "linear-gradient(225deg,#0abac2,#b2de94)",
               }}
             >
-              <img src="../crisp-works.png" alt="" className="img-fluid" />
+              <img src="../school.png" alt="" className="img-fluid school" />
             </div>
           </div>
           <div
@@ -138,7 +138,7 @@ const Projects = () => {
                 backgroundImage: "linear-gradient(135deg,#8254e5,#83afe3 150%)",
               }}
             >
-              <img src="../crisp-works.png" alt="" className="img-fluid" />
+              <img src="../travel.png" alt="" className="img-fluid travel" />
             </div>
           </div>
         </div>

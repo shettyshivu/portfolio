@@ -93,8 +93,8 @@ const About = () => {
                     <div className="col-md-6">
                       <div className="progress">
                         <div className="skill">
-                          Django
-                          <i className="val">70%</i>
+                          Next JS
+                          <i className="val">60%</i>
                         </div>
                         <div className="progress-bar-wrap">
                           <div
@@ -129,11 +129,10 @@ const About = () => {
                       </div>
                     </div>
                     <div className="col-md-6">
-                      {" "}
                       <div className="progress">
                         <div className="skill">
-                          python
-                          <i className="val">60%</i>
+                          Django
+                          <i className="val">70%</i>
                         </div>
                         <div className="progress-bar-wrap">
                           <div
