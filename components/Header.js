@@ -5,14 +5,12 @@ function Header() {
     <div className="position-relative h-100 header-main-container">
       <div className="header">
         <div className="header-content" data-aos="zoom-out">
-          <div className="header-greeting">
-            <h2>&lt;Hello&nbsp;&#47;&gt;</h2>
-          </div>
+          <div className="header-greeting">&lt;Hello&nbsp;&#47;&gt;</div>
           <div className="header-name">I&apos;m Shivaprasad Shetty</div>
           <div className="header-desciption">
             <span>Full Stack</span> Developer
           </div>
-          <div className="lets-talk-button text-center">
+          <div className="lets-talk-button">
             <button>Let&apos;s Talk!</button>
           </div>
         </div>
@@ -20,7 +18,6 @@ function Header() {
           <img src="../hero-girl.png" alt="" className="img-fluid" />
         </div>
       </div>
-      <div className="wave"></div>
     </div>
   );
 }
