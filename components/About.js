@@ -60,6 +60,7 @@ const About = () => {
                           <a
                             href="mailto:shivaprasadshetty555@gmail.com"
                             target={"_blank"}
+                            rel="noopener noreferrer"
                           >
                             shivaprasadshetty555@gmail.com
                           </a>
@@ -79,7 +80,7 @@ const About = () => {
                         </div>
                         <div className="progress-bar-wrap">
                           <div
-                            class="progress-bar"
+                            className="progress-bar"
                             role="progressbar"
                             aria-valuenow="80"
                             aria-valuemin="0"
@@ -97,7 +98,7 @@ const About = () => {
                         </div>
                         <div className="progress-bar-wrap">
                           <div
-                            class="progress-bar"
+                            className="progress-bar"
                             role="progressbar"
                             aria-valuenow="70"
                             aria-valuemin="0"
@@ -117,7 +118,7 @@ const About = () => {
                         </div>
                         <div className="progress-bar-wrap">
                           <div
-                            class="progress-bar"
+                            className="progress-bar"
                             role="progressbar"
                             aria-valuenow="75"
                             aria-valuemin="0"
@@ -136,7 +137,7 @@ const About = () => {
                         </div>
                         <div className="progress-bar-wrap">
                           <div
-                            class="progress-bar"
+                            className="progress-bar"
                             role="progressbar"
                             aria-valuenow="60"
                             aria-valuemin="0"

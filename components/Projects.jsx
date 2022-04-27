@@ -19,7 +19,7 @@ const Projects = () => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </div>
               <div className="project-button">
-                <a href="http://twoandhalfdots.com/" target={"_blank"}>
+                <a href="http://twoandhalfdots.com/" target={"_blank"} rel="noopener noreferrer">
                   <button
                     style={{
                       backgroundImage:
@@ -79,6 +79,7 @@ const Projects = () => {
                 <a
                   href="http://www.csinternationalschool.in/"
                   target={"_blank"}
+                  rel="noopener noreferrer"
                 >
                   <button
                     style={{
@@ -112,6 +113,7 @@ const Projects = () => {
                 <a
                   href="https://twoandhalfdots-travel-advisor.netlify.app/"
                   target={"_blank"}
+                  rel="noopener noreferrer"
                 >
                   <button
                     style={{
