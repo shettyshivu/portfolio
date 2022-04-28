@@ -3,7 +3,7 @@
   --linear-gradient: linear-gradient(
     to top right,
     rgb(69, 11, 124, 0.8),
-    rgb(86, 60, 201, 0.7),
+    rgb(86, 60, 201, 0.5),
     rgb(73, 233, 251, 0.6)
   );
 }
@@ -13,6 +13,7 @@
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #ffffff;
   height: 500px;
   position: relative;
