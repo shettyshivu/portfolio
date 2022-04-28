@@ -2,9 +2,9 @@
 :root {
   --linear-gradient: linear-gradient(
     to top right,
-    rgb(69, 11, 124, 0.8),
+    rgb(69, 11, 124, 0.7),
     rgb(86, 60, 201, 0.5),
-    rgb(73, 233, 251, 0.6)
+    rgb(73, 233, 251, 0.5)
   );
 }
 
@@ -15,7 +15,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #ffffff;
-  height: 500px;
+  height: 520px;
   position: relative;
 }
 
@@ -84,16 +84,15 @@
 }
 
 .projects,
-.about {
+.about,
+.resume {
   padding: 40px;
   background-color: rgb(140, 147, 189, 0.05);
 }
-
+.resume {
+  padding: 20px 40px;
+}
 .projects .title {
-  /* background-image: linear-gradient(141.27deg, #161616 0.69%, #858585 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
   font-family: "Playfair Display", serif;
   color: #212529;
   letter-spacing: 2px;
@@ -122,7 +121,6 @@
   background-color: #fff;
   padding: 90px;
   box-shadow: 0 70px 140px 0 rgba(130, 136, 171, 0.2);
-  /* border-radius: 15px 0 0 15px; */
 }
 
 .project-box .project-name {
@@ -139,6 +137,7 @@
   color: #8c93bd;
   font-weight: 500;
   padding-bottom: 60px;
+  text-align: justify;
 }
 
 .project-box .project-button button {
@@ -189,14 +188,14 @@
   max-width: 180px;
 }
 
-.about-title {
+.section-title {
   font-family: "Playfair Display", serif;
   text-align: center;
   position: relative;
   padding: 50px 0;
 }
 
-.about-title h2 {
+.section-title h2 {
   font-size: 32px;
   margin-bottom: 20px;
   position: relative;
@@ -207,7 +206,7 @@
   padding-bottom: 0;
 }
 
-.about-title span {
+.section-title span {
   position: absolute;
   font-size: 52px;
   z-index: 1;
@@ -249,7 +248,7 @@
 }
 
 .skills-content .skills-title {
-  margin-bottom: 20px;
+  margin: 20px 0;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -290,6 +289,60 @@
   transform-origin: left;
   transform: scaleX(0);
   animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #3b434a;
+}
+
+.resume-item {
+  padding: 0 0 10px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
+}
+
+.resume-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.resume-item a:hover {
+  color: inherit;
+}
+
+.resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #82909c;
+}
+
+.resume-item h4 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #e43c5c;
+  margin-bottom: 10px;
+}
+
+.resume-item h5 {
+  font-size: 16px;
+  background: #eef0f2;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 /* -----------------------Responsive---------------------------- */
@@ -373,6 +426,9 @@
   .skills-content {
     margin: 20px 0 0 0;
   }
+  .project-description{
+    text-align: center !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -430,16 +486,17 @@
   .header-main-container {
     height: 430px !important;
   }
-  .about {
+  .about,
+  .resume {
     padding: 20px;
   }
   .projects {
     padding: 10px;
   }
-  .about-title h2 {
+  .section-title h2 {
     font-size: 25px;
   }
-  .about-title span {
+  .section-title span {
     font-size: 38px;
     top: 53px;
   }

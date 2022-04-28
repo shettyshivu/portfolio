@@ -14,12 +14,16 @@ const Projects = () => {
               className="project-box box-border-radius-bottom"
               style={{ borderRadius: "15px 0 0 15px" }}
             >
-              <div className="project-name">Two and Half Dots</div>
+              <div className="project-name">CS International School </div>
               <div className="project-description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                A website for the client CS International School, Bengaluru.
               </div>
               <div className="project-button">
-                <a href="http://twoandhalfdots.com/" target={"_blank"} rel="noopener noreferrer">
+                <a
+                  href="http://www.csinternationalschool.in/ "
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
                   <button
                     style={{
                       backgroundImage:
@@ -44,7 +48,7 @@ const Projects = () => {
                   "linear-gradient(150deg, #c99fff -20%, #4a4eff)",
               }}
             >
-              <img src="../crisp-works.png" alt="" className="img-fluid" />
+              <img src="../school.png" alt="" className="img-fluid" />
             </div>
           </div>
         </div>
@@ -60,7 +64,7 @@ const Projects = () => {
                 backgroundImage: "linear-gradient(225deg,#0abac2,#b2de94)",
               }}
             >
-              <img src="../school.png" alt="" className="img-fluid school" />
+              <img src="../crisp-works.png" alt="" className="img-fluid school" />
             </div>
           </div>
           <div
@@ -71,13 +75,15 @@ const Projects = () => {
               className="project-box box-border-radius-bottom"
               style={{ borderRadius: "0 15px 15px 0" }}
             >
-              <div className="project-name">CS International School</div>
+              <div className="project-name">Ticketzy</div>
               <div className="project-description">
-                A website for the client CS International School, Bengaluru.
+                A ticket booking mobile application for intercity travelers,
+                Created the website and maintained admin portal for the
+                operators.
               </div>
               <div className="project-button">
                 <a
-                  href="http://www.csinternationalschool.in/"
+                  href="https://ticketzy.twoandhalfdots.com/"
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
