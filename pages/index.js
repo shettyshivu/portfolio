@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Shivaprasad Shetty</title>
         <meta name="description" content="Shivaprasad's Portfolio Website" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.png" />
       </Head>
       <Navbar />
       <Header />
