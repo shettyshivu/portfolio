@@ -10,7 +10,7 @@ const Resume = () => {
         </div>
         <div className="row">
           <div className="col-md-6" data-aos="zoom-out">
-            <div className="resume-title">Sumary</div>
+            <div className="resume-title">Summary</div>
             <div className="resume-item">
               <h4>Shivaprasad</h4>
               <p>

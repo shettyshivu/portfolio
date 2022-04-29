@@ -25,3 +25,21 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(228, 60, 92);
+  border: 0.25em solid #fff;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgb(228, 60, 92);
+}

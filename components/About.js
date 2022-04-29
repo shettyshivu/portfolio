@@ -147,6 +147,44 @@ const About = () => {
                       </div>
                     </div>
                   </div>
+                  <div className="row">
+                    <div className="col-md-6">
+                      <div className="progress">
+                        <div className="skill">
+                          SQL
+                          <i className="val">70%</i>
+                        </div>
+                        <div className="progress-bar-wrap">
+                          <div
+                            className="progress-bar"
+                            role="progressbar"
+                            aria-valuenow="70"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style={{ width: "70%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="progress">
+                        <div className="skill">
+                          Python
+                          <i className="val">65%</i>
+                        </div>
+                        <div className="progress-bar-wrap">
+                          <div
+                            className="progress-bar"
+                            role="progressbar"
+                            aria-valuenow="65"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style={{ width: "65%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

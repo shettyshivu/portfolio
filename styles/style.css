@@ -177,7 +177,7 @@
 
 .project-img img {
   max-width: 180px;
-  z-index: 999;
+  z-index: 5;
 }
 
 .project-img .travel {
@@ -345,6 +345,119 @@
   margin-bottom: 10px;
 }
 
+.links-container {
+  display: block;
+  position: fixed;
+  right: 20px;
+  bottom: 25px;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+  z-index: 9;
+}
+
+.links-container a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.links-container a:hover {
+  color: inherit;
+}
+
+.link {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  height: 50px;
+  transition: transform 0.5s ease-in-out;
+  color: white;
+}
+
+.icon {
+  position: absolute;
+  width: 30px !important;
+  height: 30px !important;
+  top: 10px;
+  left: 10px;
+  color: #ffffff;
+}
+
+.comments {
+  background-color: #fff;
+  width: 52px;
+  height: 52px;
+  z-index: 11;
+}
+
+.comments svg {
+  transform: translate(1px, 0px);
+  color: rgb(23, 13, 59);
+}
+
+.c-transform {
+  transform: rotate(360deg);
+}
+
+.whatsapp {
+  background-color: #25d366;
+  z-index: 10;
+}
+
+.whatsapp:hover {
+  background-color: #1abf4c;
+}
+
+.w-transform {
+  transform: translateY(-60px);
+}
+
+.linkedin {
+  background-color: #0077b5;
+  z-index: 9;
+}
+
+.linkedin:hover {
+  background-color: #0065a6;
+}
+
+.l-transform {
+  transform: translateY(-120px);
+}
+
+.twitter {
+  background-color: #1da1f2;
+  z-index: 8;
+}
+
+.twitter:hover {
+  background-color: #1480bb;
+}
+
+.t-transform {
+  transform: translateY(-180px);
+}
+
+.instagram {
+  background-color: #e1306c;
+  z-index: 7;
+}
+
+.instagram:hover {
+  background-color: #d20b5c;
+}
+
+.i-transform {
+  transform: translateY(-240px);
+}
+
 /* -----------------------Responsive---------------------------- */
 @keyframes animate {
   100% {
@@ -368,6 +481,16 @@
     transform: translateX(-10px);
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .skills-title {
+    margin-top: 7px;
+  }
+  .skills-content .progress {
+    height: 35px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .project-box {
     padding: 40px;
@@ -380,6 +503,12 @@
   }
   .about-description {
     margin-top: 20px;
+  }
+  .skills-title {
+    margin: 20px 0;
+  }
+  .skills-content .progress {
+    height: 50px;
   }
 }
 @media screen and (max-width: 970px) {
@@ -426,11 +555,10 @@
   .skills-content {
     margin: 20px 0 0 0;
   }
-  .project-description{
+  .project-description {
     text-align: center !important;
   }
 }
-
 
 @media screen and (max-width: 600px) {
   .project-box .project-name {
