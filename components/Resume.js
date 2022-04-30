@@ -14,7 +14,7 @@ const Resume = () => {
             <div className="resume-item">
               <h4>Shivaprasad</h4>
               <p>
-                I'm a full stack developer having serious passion for creating
+                I&apos;m a full stack developer having serious passion for creating
                 fully functional web applications with intuitive user interface.
               </p>
             </div>
