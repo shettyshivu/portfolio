@@ -24,7 +24,7 @@ const Projects = () => {
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
-                  <button
+                  <button className="school"
                     style={{
                       backgroundImage:
                         "linear-gradient(135deg, #72e9f3 -20%, #404de6 120%)",
@@ -88,6 +88,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                 >
                   <button
+                  className="ticketzy"
                     style={{
                       backgroundImage:
                         "linear-gradient(225deg,#0abac2,#b2de94)",
@@ -122,6 +123,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                 >
                   <button
+                  className="travel-advisor"
                     style={{
                       backgroundImage:
                         "linear-gradient(135deg,#8254e5,#83afe3 150%)",

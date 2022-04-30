@@ -14,8 +14,8 @@ const Resume = () => {
             <div className="resume-item">
               <h4>Shivaprasad</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis, accusantium!
+                I'm a full stack developer having serious passion for creating
+                fully functional web applications with intuitive user interface.
               </p>
             </div>
             <div className="resume-title">Education</div>
@@ -24,7 +24,7 @@ const Resume = () => {
               <h5>2019&nbsp;&minus;&nbsp;Present</h5>
               <p>
                 <em>
-                  University Visvesvaraya College of Engineering, Bangalore
+                  University Visvesvaraya College of Engineering, Bengaluru
                 </em>
               </p>
             </div>
@@ -36,7 +36,7 @@ const Resume = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-6" data-aos="zoom-in">  
+          <div className="col-md-6" data-aos="zoom-in">
             <div className="resume-title">Professional Experience</div>
             <div className="resume-item">
               <h4>Web Development Intern</h4>

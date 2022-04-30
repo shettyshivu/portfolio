@@ -9,6 +9,10 @@ const About = () => {
         <div className="section-title">
           <span>About Me</span>
           <h2>About Me</h2>
+          {/* <p>
+            I'm a full stack developer having serious passion for creating fully
+            functional web applications with intuitive user interface.
+          </p> */}
         </div>
         <div className="about-content">
           <div className="row">

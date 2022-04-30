@@ -5,6 +5,7 @@ import About from "../components/About";
 import Projects from "../components/Projects";
 import Resume from "../components/Resume";
 import Float from "../components/Float";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Shivaprasad Shetty</title>
         <meta name="description" content="Shivaprasad's Portfolio Website" />
-        <link rel="icon" href="/iconn.png" />
+        <link rel="icon" href="/icon.png" />
       </Head>
       <Navbar />
       <Header />
@@ -20,6 +21,7 @@ export default function Home() {
       <Resume />
       <Float />
       <Projects />
+      <Footer />
     </>
   );
 }
