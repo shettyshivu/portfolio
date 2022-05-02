@@ -107,7 +107,7 @@ const About = () => {
                             aria-valuenow="70"
                             aria-valuemin="0"
                             aria-valuemax="100"
-                            style={{ width: "70%" }}
+                            style={{ width: "60%" }}
                           ></div>
                         </div>
                       </div>
