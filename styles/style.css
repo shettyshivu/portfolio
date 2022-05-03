@@ -515,6 +515,48 @@
   color: #212529;
 }
 
+.navbar {
+  justify-content: space-evenly !important;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar .logo {
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.navbar ul li {
+  margin-right: 30px;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  color: #ffffff;
+}
+
+.navbar-button {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  display: none;
+  width: 30px;
+  height: 21px;
+  z-index: 9999;
+}
+
+.navbar-button .bar {
+  height: 3px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
 /* -----------------------Responsive---------------------------- */
 @keyframes animate {
   100% {
@@ -579,11 +621,11 @@
 
 @media screen and (max-width: 820px) {
   .header-image img {
-    max-width: 200px;
+    max-width: 250px;
   }
   .header-image {
-    top: 60px;
-    right: 5px;
+    top: 280px;
+    right: 25px;
   }
   .header-content {
     top: 120px;
@@ -621,8 +663,90 @@
   .project-box .project-name {
     font-size: 20px;
   }
+  .header-image img {
+    max-width: 200px;
+  }
+  .header-image {
+    top: 320px;
+  }
+
+  .navbar-button {
+    display: flex !important;
+  }
+
+  .navbar .logo {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar-mobile ul {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh !important;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    position: fixed !important;
+    background: linear-gradient(
+      to bottom right,
+      rgb(69, 11, 124),
+      rgb(86, 60, 201),
+      rgb(73, 233, 251)
+    );
+    z-index: 4;
+    padding-top: 35% !important;
+  }
+
+  .navbar-mobile ul li {
+    margin-right: inherit;
+    margin-bottom: 50px;
+    text-align: center !important;
+  }
+
+  .navbar-mobile .logo {
+    position: fixed;
+    top: 10px;
+    left: 50px;
+  }
+
+  .navbar-mobile .navbar-button {
+    position: fixed;
+  }
 }
 
+@media screen and (max-width: 512px) {
+  .header-greeting {
+    font-size: 35px;
+  }
+  .header-content {
+    top: 70px;
+  }
+  .header-name {
+    font-size: 30px;
+  }
+
+  .header-desciption {
+    font-size: 20px;
+  }
+  .header {
+    height: 400px;
+  }
+  .header-main-container {
+    height: 430px !important;
+  }
+  .header-image img {
+    max-width: 150px;
+  }
+  .header-image {
+    top: 250px;
+  }
+}
 @media screen and (max-width: 465px) {
   .header-content {
     left: 30px;
@@ -643,40 +767,15 @@
   .project-img .school {
     max-width: 120px;
   }
-
   .project-img {
     padding: 50px;
   }
 }
 
-@media screen and (max-width: 512px) {
-  .header-greeting {
-    font-size: 35px;
-  }
-  .header-image img {
-    max-width: 100px;
-  }
-  .header-image {
-    top: 40px;
-  }
-  .header-content {
-    top: 70px;
-  }
-  .header-name {
-    font-size: 30px;
-  }
-
-  .header-desciption {
-    font-size: 20px;
-  }
-  .header {
-    height: 400px;
-  }
-  .header-main-container {
-    height: 430px !important;
-  }
-}
 @media screen and (max-width: 420px) {
+  .navbar .logo {
+    left: 20px;
+  }
   .header-name {
     font-size: 25px;
   }
@@ -719,6 +818,13 @@
   .lets-talk-button button {
     padding: 8px 30px;
   }
+  .header-image {
+    right: 15px;
+    top: 280px;
+  }
+  .header-image img {
+    max-width: 100px;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -736,8 +842,7 @@
     height: auto;
   }
   .header-image {
-    top: 10px;
-    right: 2px;
+    display: none;
   }
   .header-content {
     left: 20px;

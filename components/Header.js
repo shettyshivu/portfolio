@@ -5,11 +5,13 @@ import {
   faLinkedin,
   faJava,
 } from "@fortawesome/free-brands-svg-icons";
+import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <div className="position-relative h-100 header-main-container">
+    <div className="position-relative h-100 header-main-container" id="home">
       <div className="header">
+        <Navbar />
         <div className="header-content" data-aos="zoom-out">
           <div className="header-greeting">&lt;Hello&nbsp;&#47;&gt;</div>
           <div className="header-name">I&apos;m Shivaprasad Shetty</div>
