@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const [show, setShow] = useState(false);
+  const [clicked, seClicked] = useState(false);
   const handleClick = () => {
     setShow(!show);
   };
@@ -20,7 +21,7 @@ function Navbar() {
           <li onClick={handleClick}>Home</li>
         </Link>
         <Link href={"#about"}>
-          <li  onClick={handleClick}>About</li>
+          <li onClick={handleClick}>About</li>
         </Link>
         <Link href={"#resume"}>
           <li onClick={handleClick}>Resume</li>
@@ -30,9 +31,7 @@ function Navbar() {
         </Link>
       </ul>
       <div className="navbar-button" onClick={handleClick}>
-        <span className="bar line-1"></span>
-        <span className="bar line-2"></span>
-        <span className="bar line-3"></span>
+        <FontAwesomeIcon icon={show ? faXmark : faBars} />
       </div>
     </div>
   );
