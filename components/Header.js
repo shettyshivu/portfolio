@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Tooltip } from "@mui/material";
 import {
   faGithub,
   faLinkedin,
@@ -19,27 +20,33 @@ function Header() {
             <span>Full Stack</span> Developer
           </div>
           <div className="header-links">
-            <a
-              href="https://github.com/shettyshivu"
-              target={"_blank"}
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/shivaprasad-shetty-790a8a212/"
-              target={"_blank"}
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            <a
-              href="https://leetcode.com/shivaprasad_shetty/"
-              target={"_blank"}
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faJava} />
-            </a>
+            <Tooltip title="GitHub" arrow>
+              <a
+                href="https://github.com/shettyshivu"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </Tooltip>
+            <Tooltip title="LinkedIn" arrow={true}>
+              <a
+                href="https://www.linkedin.com/in/shivaprasad-shetty-790a8a212/"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+            </Tooltip>
+            <Tooltip title="LeetCode" arrow>
+              <a
+                href="https://leetcode.com/shivaprasad_shetty/"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faJava} />
+              </a>
+            </Tooltip>
           </div>
           <div className="lets-talk-button">
             <a

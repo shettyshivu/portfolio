@@ -3,16 +3,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
+  var birthDate = new Date(2001, 9, 12);
+  var yearThen = birthDate.getFullYear();
+  var monthThen = birthDate.getMonth();
+  var dayThen = birthDate.getDate();
+
+  var today = new Date();
+  var birthday = new Date(yearThen, monthThen-1, dayThen)
+  var differenceInMilisecond = today.valueOf() - birthday.valueOf();
+  var year_age = Math.floor(differenceInMilisecond / 31536000000);
   return (
     <div className="about" id="about">
       <div className="container">
         <div className="section-title">
           <span>About Me</span>
           <h2>About Me</h2>
-          {/* <p>
-            I'm a full stack developer having serious passion for creating fully
-            functional web applications with intuitive user interface.
-          </p> */}
         </div>
         <div className="about-content">
           <div className="row">
@@ -55,7 +60,7 @@ const About = () => {
                       <li>
                         <FontAwesomeIcon icon={faAngleRight} />
                         <strong>Age:</strong>
-                        <span>20</span>
+                        <span>{year_age}</span>
                       </li>
                       <li>
                         <FontAwesomeIcon icon={faAngleRight} />
@@ -118,16 +123,16 @@ const About = () => {
                       <div className="progress">
                         <div className="skill">
                           Java
-                          <i className="val">75%</i>
+                          <i className="val">85%</i>
                         </div>
                         <div className="progress-bar-wrap">
                           <div
                             className="progress-bar"
                             role="progressbar"
-                            aria-valuenow="75"
+                            aria-valuenow="85"
                             aria-valuemin="0"
                             aria-valuemax="100"
-                            style={{ width: "75%" }}
+                            style={{ width: "85%" }}
                           ></div>
                         </div>
                       </div>
