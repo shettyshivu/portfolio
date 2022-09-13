@@ -6,6 +6,7 @@ import {
   faLinkedin,
   faJava,
 } from "@fortawesome/free-brands-svg-icons";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "./Navbar";
 
 function Header() {
@@ -45,6 +46,15 @@ function Header() {
                 rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faJava} />
+              </a>
+            </Tooltip>
+            <Tooltip title="Resume" arrow>
+              <a
+                href="https://drive.google.com/file/d/110YkxKGMONIw-0O6IsqtlOw9dJS6CEoN/view"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faFile} />
               </a>
             </Tooltip>
           </div>

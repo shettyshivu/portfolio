@@ -10,12 +10,7 @@ function Navbar() {
     setShow(!show);
   };
   return (
-    <div className={show ? "navbar-mobile navbar" : "navbar"}>
-      <div className="logo">
-        <Link href={"/"}>
-          <img src="../icon-2.png" alt="" className="img-fluid" />
-        </Link>
-      </div>
+    <div className={show ? "navbar-mobile navbar pt-4" : "navbar pt-4"}>
       <ul>
         <Link href={"/"}>
           <li onClick={handleClick}>Home</li>
