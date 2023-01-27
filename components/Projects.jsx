@@ -24,7 +24,8 @@ const Projects = () => {
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
-                  <button className="school"
+                  <button
+                    className="school"
                     style={{
                       backgroundImage:
                         "linear-gradient(135deg, #72e9f3 -20%, #404de6 120%)",
@@ -61,10 +62,10 @@ const Projects = () => {
               className="project-img d-flex box-border-radius-top"
               style={{
                 borderRadius: "15px 0 0 15px",
-                backgroundImage: "linear-gradient(225deg,#0abac2,#b2de94)",
+                backgroundImage: "linear-gradient(135deg,#8254e5,#83afe3 150%)",
               }}
             >
-              <img src="../crisp-works.png" alt="" className="img-fluid school" />
+              <img src="../travel.png" alt="" className="img-fluid travel" />
             </div>
           </div>
           <div
@@ -75,23 +76,23 @@ const Projects = () => {
               className="project-box box-border-radius-bottom"
               style={{ borderRadius: "0 15px 15px 0" }}
             >
-              <div className="project-name">Ticketzy</div>
+              <div className="project-name">Travel Advisor</div>
               <div className="project-description">
-                A ticket booking mobile application for intercity travelers,
-                Created the website and maintained admin portal for the
-                operators.
+                A Google Maps &amp; Travel Advisor API based application for
+                real-time Restaurants, Hotels and Attractions information on
+                Maps.
               </div>
               <div className="project-button">
                 <a
-                  href="https://ticketzy.twoandhalfdots.com/"
+                  href="https://twoandhalfdots-travel-advisor.netlify.app/"
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
                   <button
-                  className="ticketzy"
+                    className="travel-advisor"
                     style={{
                       backgroundImage:
-                        "linear-gradient(225deg,#0abac2,#b2de94)",
+                        "linear-gradient(135deg,#8254e5,#83afe3 150%)",
                     }}
                   >
                     View Project
@@ -110,23 +111,23 @@ const Projects = () => {
               className="project-box box-border-radius-bottom"
               style={{ borderRadius: "15px 0 0 15px" }}
             >
-              <div className="project-name">Travel Advisor</div>
+              <div className="project-name">Ticketzy</div>
               <div className="project-description">
-                A Google Maps &amp; Travel Advisor API based application for
-                real-time Restaurants, Hotels and Attractions information on
-                Maps.
+                A ticket booking mobile application for intercity travelers,
+                Created the website and maintained admin portal for the
+                operators.
               </div>
               <div className="project-button">
                 <a
-                  href="https://twoandhalfdots-travel-advisor.netlify.app/"
+                  href="https://ticketzy.twoandhalfdots.com/"
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
                   <button
-                  className="travel-advisor"
+                    className="ticketzy"
                     style={{
                       backgroundImage:
-                        "linear-gradient(135deg,#8254e5,#83afe3 150%)",
+                        "linear-gradient(225deg,#0abac2,#b2de94)",
                     }}
                   >
                     View Project
@@ -143,10 +144,14 @@ const Projects = () => {
               className="project-img d-flex box-border-radius-top"
               style={{
                 borderRadius: "0 15px 15px 0",
-                backgroundImage: "linear-gradient(135deg,#8254e5,#83afe3 150%)",
+                backgroundImage: "linear-gradient(225deg,#0abac2,#b2de94)",
               }}
             >
-              <img src="../travel.png" alt="" className="img-fluid travel" />
+              <img
+                src="../crisp-works.png"
+                alt=""
+                className="img-fluid school"
+              />
             </div>
           </div>
         </div>

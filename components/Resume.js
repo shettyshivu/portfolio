@@ -22,7 +22,7 @@ const Resume = () => {
             <div className="resume-title">Education</div>
             <div className="resume-item">
               <h4>Computer Science Engineering </h4>
-              <h5>2019&nbsp;&minus;&nbsp;Present</h5>
+              <h5>2019&nbsp;&minus;&nbsp;2023</h5>
               <p>
                 <em>
                   University Visvesvaraya College of Engineering, Bengaluru
@@ -40,33 +40,30 @@ const Resume = () => {
           <div className="col-md-6" data-aos="zoom-in">
             <div className="resume-title">Professional Experience</div>
             <div className="resume-item">
-              <h4>Full Stack Developer</h4>
-              <h5>Aug&apos;21&nbsp;&minus;&nbsp;Present</h5>
+              <h4>Software Developer Intern</h4>
+              <h5>Oct&apos;22&nbsp;&minus;&nbsp;Dec&apos;22</h5>
               <a
-                href="https://twoandhalfdots.com/"
+                href="https://drive.google.com/file/d/1yvr98pt8MGtK_8sescIlYsfnMvcrJ4Qp/view?usp=sharing"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
                 <p>
-                  <em>Two and Half Dots, Bengaluru</em>
+                  <em>Taskmonk, Bengaluru</em>
                 </p>
               </a>
               <p>
-                <p>
-                  We are a group of friends, working on creating something new
-                  for the world, doing a bit from technical side might help the
-                  cause!
-                </p>
-                Maintained CRUD based website and wrote frontend &amp; backend
-                APIs for building travel&minus;based application &minus; React
-                js, Django, JavaScript, Bootstrap, Material UI.
+                Developing new UI components using Reactjs and Storybook for all
+                Taskmonk products.
+              </p>
+              <p>
+                Resolved multiple issues in Taskmonk data labeling platform.
               </p>
             </div>
             <div className="resume-item">
               <h4>Web Development Intern</h4>
               <h5>Feb&apos;22&nbsp;&minus;&nbsp;May&apos;22</h5>
               <a
-                href="https://whatcode.in/"
+                href="https://drive.google.com/file/d/1royi6dpm7pCm_1E710gg3kgPHaBvU0Et/view?usp=sharing"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >

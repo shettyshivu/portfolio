@@ -50,7 +50,7 @@ function Header() {
             </Tooltip>
             <Tooltip title="Resume" arrow>
               <a
-                href="https://drive.google.com/file/d/110YkxKGMONIw-0O6IsqtlOw9dJS6CEoN/view"
+                href="https://drive.google.com/file/d/1b8T6zFEAtzYsqVOuXoikUgwrQiRYTINh/view"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
