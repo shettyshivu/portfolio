@@ -9,7 +9,7 @@ const About = () => {
   var dayThen = birthDate.getDate();
 
   var today = new Date();
-  var birthday = new Date(yearThen, monthThen-1, dayThen)
+  var birthday = new Date(yearThen, monthThen - 1, dayThen);
   var differenceInMilisecond = today.valueOf() - birthday.valueOf();
   var year_age = Math.floor(differenceInMilisecond / 31536000000);
   return (
@@ -34,7 +34,7 @@ const About = () => {
                       <li>
                         <FontAwesomeIcon icon={faAngleRight} />
                         <strong>Name:</strong>
-                        <span>Shivaprasad Shetty</span>
+                        <span>Shivaprasad S Shetty</span>
                       </li>
                       <li>
                         <FontAwesomeIcon icon={faAngleRight} />
@@ -85,7 +85,7 @@ const About = () => {
                       <div className="progress">
                         <div className="skill">
                           React JS
-                          <i className="val">80%</i>
+                          <i className="val">85%</i>
                         </div>
                         <div className="progress-bar-wrap">
                           <div
@@ -102,8 +102,8 @@ const About = () => {
                     <div className="col-md-6">
                       <div className="progress">
                         <div className="skill">
-                          Next JS
-                          <i className="val">60%</i>
+                          Java
+                          <i className="val">80%</i>
                         </div>
                         <div className="progress-bar-wrap">
                           <div
@@ -122,8 +122,8 @@ const About = () => {
                     <div className="col-md-6">
                       <div className="progress">
                         <div className="skill">
-                          Java
-                          <i className="val">85%</i>
+                          Next JS
+                          <i className="val">50%</i>
                         </div>
                         <div className="progress-bar-wrap">
                           <div
